@@ -7,5 +7,3 @@ def snake_it_up(string)
    end
 end
 
-string = "surprise"
-snake_it_up(string)
