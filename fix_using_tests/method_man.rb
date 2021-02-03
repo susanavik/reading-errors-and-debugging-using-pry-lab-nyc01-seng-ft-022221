@@ -12,4 +12,3 @@ def play_game(player1, player2)
   player2 = "Beyonce"
   return play_game
 end
-
