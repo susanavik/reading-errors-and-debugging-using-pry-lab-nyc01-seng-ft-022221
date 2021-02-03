@@ -9,4 +9,4 @@ def play_game(player1 = "Jay-z", player2 = "Beyonce")
   puts "#{player1} is better than #{player2}"
 end
 
-return play_game
+  return play_game
