@@ -5,4 +5,7 @@ def snake_it_up(string = "surprise")
     10.times do
        puts "s"
      end
+   else
+     string
+   end
 end
