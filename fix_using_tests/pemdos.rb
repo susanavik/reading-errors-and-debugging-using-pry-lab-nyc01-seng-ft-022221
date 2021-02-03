@@ -1,11 +1,11 @@
 
-def snake_it_up(string)
-  string = "surprise"
-  if string[0] == "s"
-    10.times {p 's'} + string
+def snake_it_up(String)
+  String = "surprise"
+  if String[0] == "s"
+    10.times {p 's'} + String
   else
-    string
+    String
   end
 end
 
-snake_it_up(string)
+snake_it_up(String)
