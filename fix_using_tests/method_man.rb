@@ -8,5 +8,6 @@ end
 
 def play_game(player1 = "Jay-z", player2 = "Beyonce")
   binding.pry
-  "#{player1} is better than #{player2}"
+  puts "#{player1} is better than #{player2}"
+  return play_game
 end
