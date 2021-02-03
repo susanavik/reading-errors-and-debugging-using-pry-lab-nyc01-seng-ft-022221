@@ -2,7 +2,8 @@ require 'pry'
 
 def start_game(player1 = "Rocky", player2 = "Bullwinkle")
   binding.pry
-  "Hello #{player1} & #{playar2}"
+  puts "Hello #{player1} & #{playar2}"
+  return start_game
 end
 
 def play_game(player1 = "Jay-z", player2 = "Beyonce")
