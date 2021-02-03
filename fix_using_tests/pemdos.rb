@@ -1,6 +1,5 @@
 
-def snake_it_up(string)
-  string = "surprise"
+def snake_it_up(string = "surprise")
   if string[0] == "s"
     10.times {p 's'} + string
   else
