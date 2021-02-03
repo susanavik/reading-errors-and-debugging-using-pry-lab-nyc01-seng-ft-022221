@@ -1,4 +1,3 @@
-require 'pry'
 
 def start_game(player1 = "Rocky", player2 = "Bullwinkle")
   return "Hello #{player1} & #{player2}"
